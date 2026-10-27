@@ -1,0 +1,14 @@
+title = "Contrôles de secrets — Mutuelle Boréale"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "boreale-cle-pedagogique"
+description = "Affectation d’une clé fictive sans accès à un service"
+regex = '''(?i)(?:cleDemo|api[_-]?key|secret|token)\s*[:=]\s*["'](BOREALE_DEMO_SANS_ACCES_0001)["']'''
+secretGroup = 1
+
+[[allowlists]]
+description = "Dépendances, outil téléchargé et métadonnées Git"
+paths = ['''(^|/)(node_modules|\.tools|\.git)(/|$)''']
