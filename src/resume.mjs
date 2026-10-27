@@ -11,3 +11,7 @@ for (const sinistre of sinistres) {
 const total = sinistres.reduce((somme, sinistre) => somme + sinistre.reserve, 0);
 console.log(`Réserves totales : ${dollars.format(total)}`);
 console.log('Démonstration seulement — aucune donnée de clientèle réelle.');
+
+const variableInutilisee = 42;
+const cleDemo = 'BOREALE_DEMO_SANS_ACCES_0001';
+console.log('Marqueur pédagogique sans accès :', cleDemo);
