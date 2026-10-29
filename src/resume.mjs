@@ -1,8 +1,5 @@
 // Défauts volontaires pour la démonstration : cette branche ne doit pas être fusionnée.
 
-const reserveInutilisee = 1000;
-const cleDemo = 'BOREALE_DEMO_SANS_ACCES_0001';
-console.log(`Clé fictive de démonstration sans accès à un service : ${cleDemo}`);
 
 const sinistres = [
   { numero: 'SIN-2026-001', protection: 'Habitation', reserve: 12500, statut: 'Ouvert' },
