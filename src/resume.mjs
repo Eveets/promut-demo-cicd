@@ -1,3 +1,6 @@
+// Défauts volontaires pour la démonstration : cette branche ne doit pas être fusionnée.
+
+
 const sinistres = [
   { numero: 'SIN-2026-001', protection: 'Habitation', reserve: 12500, statut: 'Ouvert' },
   { numero: 'SIN-2026-002', protection: 'Automobile', reserve: 4800, statut: 'En analyse' },
