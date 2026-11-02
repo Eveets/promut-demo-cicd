@@ -1,5 +1,5 @@
 // Défauts volontaires pour la démonstration : cette branche ne doit pas être fusionnée.
-
+const reserveInutilisee = 1000;
 
 const sinistres = [
   { numero: 'SIN-2026-001', protection: 'Habitation', reserve: 12500, statut: 'Ouvert' },
